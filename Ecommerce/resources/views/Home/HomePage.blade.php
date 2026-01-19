@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="h-screen w-full flex items-center justify-center ">
+    <section class="h-screen w-full flex items-center justify-center ">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="overflow-hidden ">
                     <div class="p-6 text-gray-900 dark:text-gray-100 ">
@@ -51,12 +51,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
-                    @include('Home.component.insure')
-                </div>
-                <div>
-                    @include('Home.component.FeaturedCollection')
-                </div>
+                
         </div>
+    </section>
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 pb-7">
+        <section>
+        <div class="">
+            @include('Home.component.insure')
+        </div> 
+    </section>
+    <section>
+        <div>
+            @include('Home.component.FeaturedCollection')
+        </div>
+    </section>
+    <section>
+        <div class="mt-10">
+            @include('Home.component.Category')
+        </div>
+    </section>
+    <section>
+        <div class="mt-10">
+            @include('Home.component.LimitedTimeOffer')
+        </div>
+    </section>
     </div>
+    <div>
+        @include('layouts.Footer')
+    </div>
+    
 </x-app-layout>

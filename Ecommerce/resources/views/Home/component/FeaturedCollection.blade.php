@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="text-center mt-5">
-        <p class="text-2xl">Feature Collection</p>
+        <p class="text-2xl font-bold text-yellow-500 bg-yellow-100 px-5 py-1 inline-block rounded-full ">Feature Collection</p>
         <p class="text-6xl mt-4 font-bold">Curated for You</p>
         <p class="mt-4 text-xl">Hand-picked pieces that blend timeless elegance with modern sophistication.</p>
     </div>
-    <div class="grid grid-cols-4   mt-10">
+    <div class="grid grid-cols-4 mt-10">
         <div class="Card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlndpwDalSNF8TzBG6T7kGv73l0IOReNJpKw&s" class="w-full img" alt="">
             <div class="p-3">
