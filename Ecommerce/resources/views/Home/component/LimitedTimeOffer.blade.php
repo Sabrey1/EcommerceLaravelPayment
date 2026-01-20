@@ -11,8 +11,11 @@
         <div class="absolute top-1/2 left-6 transform  -translate-y-1/2 text-white">
             <p class="bg-orange-400 inline-block px-4 py-1 font-bold rounded-full">Limited Time Offer</p>
             <p class="text-4xl">Up to 40% Off Select <br> Items</p>
-            <p class="">Refresh your space with our seasonal sale. Premium quality at <br> exceptional prices.</p>
-            <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-4">Shop the Sale</button>
+            <p class="mb-3">Refresh your space with our seasonal sale. Premium quality at <br> exceptional prices.</p>
+            <a href="{{route('shop')}}" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-4">
+                Shop the Sale
+                <i class="bi bi-arrow-right"></i>
+            </a>
         </div>
     </div>
 </body>

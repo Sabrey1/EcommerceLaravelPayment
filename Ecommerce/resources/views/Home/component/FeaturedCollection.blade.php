@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="text-center mt-5">
-        <p class="text-2xl font-bold text-yellow-500 bg-yellow-100 px-5 py-1 inline-block rounded-full ">Feature Collection</p>
+        <p class="text-1xl font-bold text-yellow-500 bg-yellow-100 px-5 py-1 inline-block rounded-full ">Feature Collection</p>
         <p class="text-6xl mt-4 font-bold">Curated for You</p>
         <p class="mt-4 text-xl">Hand-picked pieces that blend timeless elegance with modern sophistication.</p>
     </div>
@@ -49,10 +49,10 @@
         </div>
     </div>
     <div class="text-center mt-10">
-        <button class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-4">
+        <a href="{{route('shop')}}" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mt-4">
             View All Product
             <i class="bi bi-arrow-right"></i>
-        </button>
+        </a>
     </div>
 </body>
 </html>
