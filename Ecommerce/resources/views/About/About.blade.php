@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="py-12">
+    <div class="py-[100px]">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <section>
                 <div class="overflow-hidden">
@@ -30,7 +30,7 @@
                     @include('About.components.MeetOurTeam')
                 </div>
             </section>
-            
+
         </div>
     </div>
     @include('layouts.Footer')
