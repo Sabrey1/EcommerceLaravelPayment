@@ -17,18 +17,24 @@
     <div class="grid grid-cols-4 mt-10">
         <div class="Card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlndpwDalSNF8TzBG6T7kGv73l0IOReNJpKw&s" class="w-full img" alt="">
-            <div class="p-3">
+            <div class="grid grid-cols-2">
+                <div class="p-3">
               <p>Name</p>
               <p>Description</p>
               <p>$300 <s>$500</s></p>
             </div>
+            <div>
+                ss
+            </div>
+            </div>
+            
         </div>
         <div class="Card">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlndpwDalSNF8TzBG6T7kGv73l0IOReNJpKw&s" class="w-full img" alt="">
             <div class="p-3">
                 <p>Name</p>
               <p>Description</p>
-              <p>$300 <s>$500</s></p>
+              <p>$300</p>
             </div>  
         </div>
         <div class="Card">
