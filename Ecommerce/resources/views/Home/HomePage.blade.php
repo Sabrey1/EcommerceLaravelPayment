@@ -47,19 +47,19 @@
                                 </div>
                             </div>
                             <div >
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUp36dgcf5MiJPUfyGhVWUlgVK_SbgeJ3fzA&s" alt="sofa" class="w-full">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUp36dgcf5MiJPUfyGhVWUlgVK_SbgeJ3fzA&s" alt="sofa" class="w-full rounded-lg banner">
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
         </div>
     </section>
-    
+
     <section>
         <div class="border border-gray-400 py-12 ">
             @include('Home.component.insure')
-        </div> 
+        </div>
     </section>
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
     <section>
@@ -81,5 +81,5 @@
     <div>
         @include('layouts.Footer')
     </div>
-    
+
 </x-app-layout>

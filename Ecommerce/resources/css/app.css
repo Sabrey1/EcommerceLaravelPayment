@@ -24,7 +24,7 @@
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-    
+
 }
 .img:hover{
     transform: scale(1.1);
@@ -39,5 +39,42 @@
 }
 .img1:hover{
     transform: scale(1.1);
-    
+
+}
+
+
+
+
+
+/* transation & animation */
+
+.header{
+ animation: liFade 0.6s ease forwards;
+}
+
+@keyframes liFade{
+    from{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* homepage-image */
+.banner{
+animation: banner 2s ease-in-out infinite alternate;
+}
+@keyframes banner{
+    from{
+        /* opacity: 0; */
+        transform: translateY(5px);
+    }
+    to{
+        /* opacity: 1; */
+        transform: translateY(10px);
+    }
 }
